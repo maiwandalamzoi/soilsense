@@ -1,0 +1,15 @@
+[theme]
+# Earthy, editorial palette — terracotta + bone + deep forest
+primaryColor = "#A0522D"
+backgroundColor = "#FAF7F2"
+secondaryBackgroundColor = "#EFE9DD"
+textColor = "#1F2A1D"
+font = "serif"
+
+[server]
+maxUploadSize = 50
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false

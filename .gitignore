@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data (keep sample + boundaries, ignore large raw downloads)
+data/raw/
+data/cache/
+*.tif
+*.tiff
+!data/sample/*.tif
+
+# GEE credentials (NEVER commit)
+*.json
+!package.json
+!assets/*.json
+gee-service-account.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Build
+dist/
+build/
+*.egg-info/
